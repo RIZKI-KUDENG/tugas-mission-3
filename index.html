@@ -15,34 +15,40 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="container-box">
-        <div class="box-header">
+    <div class="login-container">
+      <div class="login-card">
+        <div class="login-header">
           <img src="assets/logo.png" alt="" />
-          <h1>Chill</h1>
+          <h1>CHILL</h1>
         </div>
-        <div class="box-body">
+        <div class="login-body">
           <h1>Masuk</h1>
-          <h3>Selamat datang kembali!</h3>
+          <p>Selamat datang kembali!</p>
         </div>
-        <div class="box-login">
-          <div class="name">
+        <form class="login-form">
+          <div class="form-item">
             <label for="">Username</label>
-            <input type="text" placeholder="Masukan username" />
+            <input type="text" placeholder="Masukan Username" />
           </div>
-          <div class="password">
+          <div class="form-item">
             <label for="">Password</label>
-            <input type="password" placeholder="Masukan password" />
+            <input type="password" placeholder="Masukan Password" />
           </div>
-          <div class="lupa-password">
-            <h3>Belum punya akun? <b>Daftar</b></h3>
-            <h3><b>Lupa Password</b></h3>
+          <div class="form-lupaPassword">
+            <p>Sudah punya akun? <a href="">Daftar</a></p>
+            <a href="">Lupa Password?</a>
           </div>
-        </div>
-        <div class="button">
-          <button>Masuk</button>
-          <h1>atau</h1>
-          <button>Masuk dengan Google</button>
+        </form>
+        <div class="footer-login">
+          <div class="form-submit">
+            <button type="submit"><a href="">Masuk</a></button>
+          </div>
+          <h1 class="atau">Atau</h1>
+          <div class="google-form">
+            <button type="submit">
+              <img src="assets/google.png" alt="" />Masuk dengan Google
+            </button>
+          </div>
         </div>
       </div>
     </div>
